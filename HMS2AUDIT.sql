@@ -1,0 +1,4 @@
+CREATE TABLE AuditHotels (
+	AuditId INT IDENTITY (1,1) PRIMARY KEY,
+	AuditData NVARCHAR (1000)
+);
